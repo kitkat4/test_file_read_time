@@ -5,26 +5,26 @@
 # 使用方法
 ## ビルド
 ```
-$ mkdir build
-$ cd build
-$ cmake ..
-$ make
+mkdir build
+cd build
+cmake ..
+make
 ```
 
 ## ファイル生成
 800kBのダミーファイルを10000個生成する。
 ```
-$ ../gen_files.sh
+../gen_files.sh
 ```
 
 ## キャッシュクリア
 ```
-$ ../clear_cache.sh
+../clear_cache.sh
 ```
 
 ## 実行
 引数は読み込むファイルの個数。
 ```
-$ ./test_file_read_time 10000
+./test_file_read_time 10000
 ```
 
